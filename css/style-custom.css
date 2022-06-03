@@ -1,0 +1,112 @@
+@charset "utf-8";
+/* CSS Document */
+.dropdown-menu{padding: 0}
+.dropdown-menu .dropdown-item{border-bottom: 1px solid rgba(62,62,62,1.00)}
+
+footer .nav .nav-item .nav-link{text-decoration: none;color: rgba(132,132,132,1.00)}
+footer .nav .nav-item .nav-link:hover{color: white;}
+.box-f{width: 200px;}
+.border-bottom1{border-bottom:2px #D10003 }
+.banner-left{position: relative}
+.banner-left .caption{position: absolute;top: 50%;left: 10%;color: aqua;}
+.banner-left img{transition: all 2s }
+.banner-left:hover>img{filter: brightness( 200%)}
+.banner-right{position: relative}
+.banner-right .img-caption{position: absolute; text-align: center;color: white;padding: 15px;background-color: black;opacity: 80%;transition: all 3s;display: flex;justify-content: center;align-items: center;flex-direction: column;width: 80%;height: 80%;top: 10%;left: 10%;transform: scale(0) rotate(360deg)}
+.banner-right:hover>.img-caption{transform: scale(1) rotate(360deg)}
+#fashionmen .owl-nav { position:absolute; left:0px; top:30%; width:100%; }
+#fashionmen .owl-nav [class*='owl-'] {
+	font-size:40px; background:rgba(255,255,255,.5);border:1px solid #3E3E3E;  color:black;height: 50px;line-height: 50px;width: 40px
+}
+
+#fashionmen .owl-nav .owl-next{ position:absolute; right:-3%;}
+#fashionmen .owl-nav .owl-prev{ position:absolute; left:-3%;}
+#fashionmen .owl-nav [class*='owl-']:hover {
+      border: 1px solid gray;
+      color:gray;
+      text-decoration: none; }
+#men .sanpham{
+	position: relative;overflow: hidden
+}
+#men .sanpham .icon{
+	position: absolute; width: 60%; left: 20%;bottom: -60px;
+	transition: all 1s;display: flex;justify-content: space-around
+}
+#men .sanpham .icon i{
+	height: 40px;width: 40px;line-height: 40px;background-color: white;display: flex;justify-content: center;
+}
+#men .sanpham:hover > .icon{
+	bottom: 60px
+}
+#men .sanpham .icon i:hover{background-color: greenyellow}
+
+
+
+
+
+
+#fashionWomen .owl-nav { position:absolute; left:0px; top:30%; width:100%; }
+#fashionWomen .owl-nav [class*='owl-'] {
+	font-size:40px; background:rgba(255,255,255,.5);border:1px solid #3E3E3E;  color:black;height: 50px;line-height: 50px;width: 40px
+}
+
+#fashionWomen .owl-nav .owl-next{ position:absolute; right:-3%;}
+#fashionWomen .owl-nav .owl-prev{ position:absolute; left:-3%;}
+#fashionWomen .owl-nav [class*='owl-']:hover {
+      border: 1px solid gray;
+      color:gray;
+      text-decoration: none; }
+#Women .sanpham{
+	position: relative;overflow: hidden
+}
+#Women .sanpham .icon{
+	position: absolute; width: 60%; left: 20%;bottom: -60px;
+	transition: all 1s;display: flex;justify-content: space-around
+}
+#Women .sanpham .icon i{
+	height: 40px;width: 40px;line-height: 40px;background-color: white;display: flex;justify-content: center;
+}
+#Women .sanpham:hover > .icon{
+	bottom: 60px
+}
+.text-gray{color: #807878}
+#Women .sanpham .icon i:hover{background-color: greenyellow}
+
+
+#fashionKid .owl-nav { position:absolute; left:0px; top:30%; width:100%; }
+#fashionKid .owl-nav [class*='owl-'] {
+	font-size:40px; background:rgba(255,255,255,.5);border:1px solid #3E3E3E;  color:black;height: 50px;line-height: 50px;width: 40px
+}
+
+#fashionKid .owl-nav .owl-next{ position:absolute; right:-3%;}
+#fashionKid .owl-nav .owl-prev{ position:absolute; left:-3%;}
+#fashionKid .owl-nav [class*='owl-']:hover {
+      border: 1px solid gray;
+      color:gray;
+      text-decoration: none; }
+#Kid .sanpham{
+	position: relative;overflow: hidden
+}
+#Kid .sanpham .icon{
+	position: absolute; width: 60%; left: 20%;bottom: -60px;
+	transition: all 1s;display: flex;justify-content: space-around
+}
+#Kid .sanpham .icon i{
+	height: 40px;width: 40px;line-height: 40px;background-color: white;display: flex;justify-content: center;
+}
+#Kid .sanpham:hover > .icon{
+	bottom: 60px
+}
+.text-gray{color: #807878}
+#Kid .sanpham .icon i:hover{background-color: greenyellow}
+
+
+
+#explore .leather{width: 100%;height: 260px;background:   #929292;display: flex;flex-direction: column;justify-content: center;align-items: center}
+.img-fluid-z {
+  width: 100%;
+	height: 260px;}
+
+
+
+
